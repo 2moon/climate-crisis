@@ -1,0 +1,165 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE html>
+<html platform="macosx"><head>
+  <meta http-equiv="Content-Security-Policy" content="default-src chrome:; img-src data: *; media-src *; object-src 'none'">
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <meta name="viewport" content="width=device-width; user-scalable=0">
+  <link rel="stylesheet" href="chrome://global/skin/aboutReader.css" type="text/css">
+<link rel="stylesheet" href="chrome://global/skin/narrate.css"><title>こどものための気候変動(気候変動)ガイド</title></head>
+
+<body class="light sans-serif loaded" style="--font-size:20px; --content-width:30em;">
+  <div class="top-anchor"></div>
+
+  <div id="toolbar" class="toolbar-container">
+    <div class="toolbar reader-toolbar">
+      <div class="reader-controls" articledir="ltr">
+        <button class="close-button button " aria-label="リーダービューを閉じる"><span class="hover-label">リーダービューを閉じる</span></button>
+        <ul class="dropdown style-dropdown">
+          <li>
+            <button class="dropdown-toggle button style-button" aria-label="書体コントロール"><span class="hover-label">書体コントロール</span></button>
+          </li>
+          <li class="dropdown-popup">
+            <div class="dropdown-arrow"></div>
+            <div class="font-type-buttons radiorow"><input id="radio-itemsans-serif-button" type="radio" class="radio-button" name="font-type" checked="checked"><label for="radio-itemsans-serif-button" class="sans-serif-button" checked="true">Sans-serif</label><input id="radio-itemserif-button" type="radio" class="radio-button" name="font-type"><label for="radio-itemserif-button" class="serif-button">Serif</label></div>
+            <div class="font-size-buttons buttonrow">
+              <button class="minus-button" title="フォントサイズを小さくします"></button>
+              <span class="font-size-value">5</span>
+              <button class="plus-button" title="フォントサイズを大きくします">
+            </button></div>
+            <div class="content-width-buttons buttonrow">
+               <button class="content-width-minus-button" title="コンテンツの幅を狭めます"></button>
+               <span class="content-width-value">3</span>
+               <button class="content-width-plus-button" title="コンテンツの幅を広げます">
+            </button></div>
+            <div class="line-height-buttons buttonrow">
+                <button class="line-height-minus-button" title="行間を狭めます"></button>
+                <span class="line-height-value">4</span>
+                <button class="line-height-plus-button" title="行間を広げます">
+            </button></div>
+            <div class="color-scheme-buttons radiorow"><input id="radio-itemlight-button" type="radio" class="radio-button" name="color-scheme" checked="checked"><label for="radio-itemlight-button" class="light-button" checked="true" title="ライトのカラー設定">ライト</label><input id="radio-itemdark-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemdark-button" class="dark-button" title="ダークのカラー設定">ダーク</label><input id="radio-itemsepia-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemsepia-button" class="sepia-button" title="セピアのカラー設定">セピア</label></div>
+          </li>
+        </ul>
+      <ul class="dropdown narrate-dropdown"><li><button class="dropdown-toggle button narrate-toggle" aria-label="聴く"><span class="hover-label">聴く</span></button></li><li class="dropdown-popup"><div class="narrate-row narrate-control"><button class="narrate-skip-previous" disabled="disabled" title="戻る"></button><button class="narrate-start-stop" title="開始"></button><button class="narrate-skip-next" disabled="disabled" title="進む"></button></div><div class="narrate-row narrate-rate"><input class="narrate-rate-input" value="0" step="5" max="100" min="-100" type="range" title="速さ"></div><div class="narrate-row narrate-voices"><div class="voiceselect voice-select"><button class="select-toggle" aria-controls="voice-options">
+      <span class="label">ボイス:</span> <span class="current-voice">デフォルト</span>
+    </button>
+    <div class="options" id="voice-options" role="listbox" style="max-height: 761px;"><button data-value="automatic" class="option selected" tabindex="-1" role="option" aria-selected="true">デフォルト</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.Alex" class="option" tabindex="-1" role="option">Alex (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.daniel" class="option" tabindex="-1" role="option">Daniel (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.fiona" class="option" tabindex="-1" role="option">Fiona (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.Fred" class="option" tabindex="-1" role="option">Fred (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.karen" class="option" tabindex="-1" role="option">Karen (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.moira" class="option" tabindex="-1" role="option">Moira (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.rishi" class="option" tabindex="-1" role="option">Rishi (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.samantha" class="option" tabindex="-1" role="option">Samantha (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.tessa" class="option" tabindex="-1" role="option">Tessa (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.veena" class="option" tabindex="-1" role="option">Veena (英語)</button><button data-value="urn:moz-tts:osx:com.apple.speech.synthesis.voice.Victoria" class="option" tabindex="-1" role="option">Victoria (英語)</button></div></div></div><div class="dropdown-arrow"></div></li></ul><button data-buttonid="pocket-button" class="button pocket-button" aria-label="Pocket に保存" style="background-image: url(&quot;chrome://global/skin/reader/pocket.svg&quot;); background-size: 16px 16px;"><span class="hover-label">Pocket に保存</span></button></div>
+    </div>
+  </div>
+
+  <div class="container" style="--line-height:1.6em;" dir="ltr">
+    <div class="header reader-header reader-show-element">
+      <a class="domain reader-domain" href="https://www.nytimes.com/interactive/2021/04/18/climate/climate-change-future-kids.html">nytimes.com</a>
+      <div class="domain-border"></div>
+      <h1 class="reader-title">こどものための気候変動(きこうへんどう)ガイド</h1>
+      <div class="credits reader-credits">執筆: Julia Rosen, Yuliya Parshina-Kottas <br>訳: タケダナルミ</div>
+      <div class="meta-data">
+        <div class="reader-estimated-time" dir="ltr">7 ～ 9 分</div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="content">
+      <div class="moz-reader-content reader-show-element"><div id="readability-page-1" class="page"><div id="site-content"><article id="interactive"><div data-preview-slug="2020-09-22-climate-future" id="climate-change-future-kids" data-id="100000007701704">
+    
+    
+
+
+
+
+<div data-component="1" role="img"><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m0-window1.png" moz-reader-center="true"></p><div><h2>ダメな未来、<br>よりよい未来</h2> <h3>こどもたちとその他すべての人たちに向けて。気候変動について、そしてわたしたちができることについてのガイドです。</h3>  <p>2021年 4月 18日</p> </div>  <div><p><img alt="overlay" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m1-window2.png" moz-reader-center="true"></p><p>
+あなたがこどもなら、あなたが生きてきたほとんどすべての年に、最高気温の記録が更新されているか、それに近い状態(じょうたい)になっているはずです。</p> </div> </div>
+
+
+
+
+
+
+<div data-component="2" role="img"><p><img alt="steps" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m2-stairs.png" moz-reader-center="true"></p><div><p>あなたが生きている間に、地球環境はもっと大きく変化するでしょう。状況は本当に悪くなるかもしれません。あるいは、今すぐ行動を起こせば、その最悪の状況を避けることができるかもしれません。それを決めるのはあなたです。それでは、両方のシナリオがどのように進んでいくかを見てみましょう。 </p><p>まずはじめに、私たちはどうやって今の状況まで来たのでしょうか？ </p></div></div>
+
+
+
+
+
+
+<div data-component="3" role="img"><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m3-inside1.png" moz-reader-center="true"></p><p>家の中を見回してみてください。照明、冷蔵庫、テレビなど、すべて電力で動いています。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m4-inside2.png" moz-reader-center="true"></p><p>人類の歴史のほとんどで、私たちは電力なしで生きてきました。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m5-inside3.png" moz-reader-center="true"></p><p>しかし、1800年代後半から、電力は現代の生活に欠かせないものとなりました。現在、アメリカ人は1950年代の13倍の電力を使用しています。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m6-street1.png" moz-reader-center="true"></p><p>あなたの家の電気はおそらく道路に沿って走る送電線から供給されています。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m7-street2.png" moz-reader-center="true"></p><p>これらは発電所につながっています。発電所は、私たちの家や会社、工場を動かすための広大なエネルギーネットワークの小さな一部分です。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m8-power1.png" moz-reader-center="true"></p><p>これまで私たちは、石炭や石油、天然ガスなどの化石燃料を燃やして電気を作ってきました。</p><p>これらの物質は、他にも、熱量をはじめとするほぼ全ての人間の活動に必要なエネルギーのほとんどを供給しています。</p>  </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m9-power2.png" moz-reader-center="true"></p><p>現在、化石燃料は大きなビジネスとなっています。私たちは1日に約1億バレルの石油やその他の液体燃料を使用し、1年間に約70億トンの石炭を使用しています。
+</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m10-oil1.png" moz-reader-center="true"></p><p>化石燃料は、ずっとむかしの動植物の残骸が地下深くで形成されたものです。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m11-oil2.png" moz-reader-center="true"></p><p>採取してエネルギーとして利用すると、先史時代の炭素が二酸化炭素やメタンとして大気中に放出されます。
+</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m14-transp1.png" moz-reader-center="true"></p><p>化石燃料を燃やすと、健康被害の原因となる汚染物質も発生します。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m15-transp2.png" moz-reader-center="true"></p><p>これらの汚染物質は、貧しい人たちやマイノリティのコミュニティに最も悪影響を与えます。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m16-transp3.png" moz-reader-center="true"></p><p>その人たちは、家の価格や差別のせいで、発電所や幹線道路などの汚染源の近くに住むことが多いです。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m17-transp4.png" moz-reader-center="true"></p><p>アメリカでは、自動車やトラックが有害な汚染物質や温室効果ガスの主要な発生源となっています。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m18-transp5.png" moz-reader-center="true"></p><p>全体で見ると、輸送は国の二酸化炭素排出量の3分の1以上を占めています。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m19-cement1.png" moz-reader-center="true"></p><p>温室効果ガスは、目立たないところからも発生しています。あなたの街にあるコンクリート製の建物や歩道を考えてみてください。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m20-cement2.png" moz-reader-center="true"></p><p>建物道路や支えるセメントは、石灰石を砕いて加熱することで作られますが、作る際に膨大なエネルギーが必要となり、二酸化炭素が排出されます。
+</p><p>セメントや鉄鋼などの産業は、世界の排出量の約20％を占めています。</p>  </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m21-agri1.png" moz-reader-center="true"></p><p>k私たちが何を食べているかも重要です。牛をはじめとする家畜は、ゲップやおなら、ウンチをするときに温室効果ガスを発生させます。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m22-agri2.png" moz-reader-center="true"></p><p>また、農作物の畑からもガスが出ています。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m23-trees1.png" moz-reader-center="true"></p><p>アマゾンの熱帯雨林のような場所では、人々は農業用の土地を開拓するために木を切り倒します。これにより、木や土壌に蓄えられていた大量の炭素が放出されます。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m24-trees2.png" moz-reader-center="true"></p><p>世界では、農業のための土地利用方法が、温室効果ガス排出量の約4分の1を占めています。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m25-trans.png" moz-reader-center="true"></p><div><p>このままでは、地球は暑くなり続け、気候変動の影響はさらに深刻になるでしょう。</p><p>このシナリオを <span>「ダメな未来」</span>と呼ぶことにしましょう。なぜなら、みんなや他の生物にとって生活が大変になるからです。</p></div>  </div></div>
+
+
+
+
+
+
+<div data-component="4" role="img"><p><img alt="bad future vertical" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m26-bad-future.png" moz-reader-center="true"></p><div><p>「ダメな未来」では、地球上のほとんどの場所が暑くなります。たまに寒い日もあることはあるでしょう。ものすごく暑くて、学校やスポーツは中止になります。</p><p>お年寄りや外で仕事をする人など、弱い立場の人にとっては、暑さが命取りになることもあります。</p><p>気候の変化により、食料の栽培が困難になります。特定の場所では、水が干上がってしまいます。</p><p>多くの人がより良い場所を求めて家を出て行き、貧しい人はお金持ちよりも苦しむことになるでしょう。これはすでに今もう起こっていることです。</p><p>猛暑や干ばつの影響で、山火事の危険性がさらに高まります。より多くの人が健康に悪い煙にさらされることになります。 </p><p>住む場所がなくなったり、他の人間からの脅威にさらされて、多くの植物や動物が絶滅の危機に直面します。</p><p>氷河や氷床がとけてしまうと、海面が上昇して多くの沿岸地域が浸水し、今世紀末までに世界で数億人が避難することになります。</p><p>海水が空気中の二酸化炭素を吸収することで、海の酸性度は増していきます。</p><div><p>海水の温度も上昇し続けるため、一部の海洋動物には効果がありますが、人間が食料として利用している海洋動物を含む他の海洋動物には悪影響を及ぼします。</p><p>サンゴ礁も消滅してしまうかもしれません。</p></div></div></div>
+
+
+
+
+
+
+<div data-component="5" role="img"><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m50-return2.png" moz-reader-center="true"></p>
+<div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m49-return1.png" moz-reader-center="true"></p>
+  <p>どうすればいいのでしょう？<br>それを決めるのわたしたち・ぼくたちです。</p>
+</div>
+<div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m48-street3.png" moz-reader-center="true"></p>
+  <p>「ダメな未来」にしたくないのであれば、世界中のリーダーたちは気候変動への対応に真剣に取り組まなければなりません。そして、わたしたちみんなも協力しなければなりません。</p>
+
+</div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m47-street2.png" moz-reader-center="true">    </p><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m46-street1.png" moz-reader-center="true"></p>
+  <p>わたしたちが直面している最大の課題は、科学にまつわることではありません。わたしたち人間に関わるものです。</p>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m45-energy3.png" moz-reader-center="true"></p>
+    <p>そして、良いニュースがあります。<br>それは、わたしたちは、「ダメな未来」にしないための方法をすでに知っているということです。実際に、いい変化はすでに多くの場所で起こっています。しかし、そのスピードは十分ではありません。</p>   
+  </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m44-energy2.png" moz-reader-center="true"></p>
+    <p>余った電気ためておけば、曇っていても、風がなくても、電気がつかえるようになります。</p>   
+  </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m43-energy1.png" moz-reader-center="true"></p>
+    <p>太陽光や風の力などの再生可能エネルギーを利用すれば、温室効果ガスを増やすことなく電気を供給することができます。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m42-transp4.png" moz-reader-center="true"></p>
+  <p>飛行機に乗って移動すると二酸化炭素を排出しますが、乗る回数を減らして排出する量を減らすことができます。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m41-transp3.png" moz-reader-center="true"></p>
+  <p>市町村を運営している組織は、公共交通機関や自転車での移動を促すことができます。</p>   
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m40-transp2.png" moz-reader-center="true"></p>
+  <p>これにより、多くの地域で空気の質もよりよくなるでしょう。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m39-transp1.png" moz-reader-center="true"></p>
+  <p>「よりよい未来」では、ガソリンやディーゼルではなく、よりクリーンな燃料で走る車でみんな移動します。</p>
+
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m38-cement3.png" moz-reader-center="true"></p>
+  <p>木材や地元の石材などの持続可能な素材を使ったエネルギー効率の高い建物で生活して仕事をします。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m37-cement2.png" moz-reader-center="true"></p>
+  <p>二酸化炭素の排出量が大幅に少ないコンクリートの製造方法を発明することができます。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m36-cement1.png" moz-reader-center="true"></p>
+  <p>この変革は、産業界を含めた社会のあらゆる部分に影響を与えます。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m35-agri2.png" moz-reader-center="true"></p>
+  <p>農場では、新しい気候に適した作物を栽培し、持続可能な農法を用いることができます。</p>   
+</div>
+<div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m34-agri1.png" moz-reader-center="true"></p>
+  <p>また、「より良い未来」では、私たちの食生活も変わります。多くの人が今よりも肉を食べる量が少なくなるでしょう。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m33-landscape2.png" moz-reader-center="true"></p>
+  <p>二酸化炭素の排出量が大幅に少ないコンクリートの製造方法を発明することができます。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m32-landscape1.png" moz-reader-center="true"></p>
+  <p>農場では、新しい気候に適した作物を栽培し、持続可能な農法を用いることができます。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m31-coastal2.png" moz-reader-center="true"></p>
+  <p>気候変動の原因を最も多く作ってきたお金持ちの国が、貧しい国の気候変動の影響への対処を支えることになるでしょう。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m30-coastal1.png" moz-reader-center="true"></p>
+  <p>例えば、政府は沿岸地域のコミュニティが内陸部に生活を移動できるよう支援することでその人たちをを洪水などの被害から守ることができます。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m29-good-future.png" moz-reader-center="true"></p>
+  <p>「よりよい未来」では、気候変動の影響を受けるのはゆっくりで、極端なものではないため、自然や社会はより容易にその環境に適応することができます。</p>
+</div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m28-trans2.png" moz-reader-center="true"></p><div>
+  <p>今までにすでに放出された温室効果ガスは、気温の上昇、海面の上昇、生態系の変化をもたらします。しかし、政府、企業、そして私たち人間全員が協力すれば、今後数十年にわたって排出量を削減し、気候変動の最悪の影響を回避することができます。</p>
+  <p>違うシナリオ、 <span>「より良い未来」</span>の生活がどうなるか見てみましょう</p></div>   </div><div><p><img alt="bg" src="A%20Climate%20Change%20Guide%20for%20Kids_files/climate_m27-trans1.png" moz-reader-center="true"></p>
+    <p>怖くて悲しくなることばかりですね。でも、こんな風になる必要はありません。今ならまだ、別の道を選ぶことができます。科学は解明されていても、未来のことはまだ決まっていません。</p>   </div></div>
+
+
+</div></article></div></div></div>
+    </div>
+
+    <div>
+      <div class="reader-message"></div>
+    </div>
+    <div aria-owns="toolbar"></div>
+  </div>
+
+
+
+</body></html>
